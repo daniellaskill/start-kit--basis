@@ -1,14 +1,33 @@
-html {
-  box-sizing: border-box; 
-}
+* {box-sizing: border-box;}
+body {margin: 0; font-family: sans-serif;}
+img {}
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit; 
-}
+.page-header {}
+.page-header__inner {}
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
+.main-nav {}
+.main-nav__list {}
+.main-nav__item {}
+.main-nav--visible {}
+
+.toggler {}
+.toggler--close {}
+
+.promo {}
+.promo__title {}
+.promo__desr {}
+
+.hope {}
+.hope__inner {}
+.hope__text {}
+.hope__image {}
+
+.news-list {}
+
+.new {}
+.new__img {}
+.new__title {}
+
+
+
+@media (min-width: 480px) {}

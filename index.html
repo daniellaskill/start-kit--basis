@@ -1,15 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Индикатор работающего JS
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
 </head>
 <body>
 
-  <h1>Заголовок</h1>
+  <header class="page-header">
+    <div class="page-header__inner">
+      <nav class="main-nav" id="main-nav">
+        <button class="toggler" id="toggler" type="button"><span>Меню</span></button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="">О нас</a></li>
+          <li class="main-nav__item"><a href="">Услуги</a></li>
+          <li class="main-nav__item"><a href="">Новости</a></li>
+          <li class="main-nav__item"><a href="">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="promo" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/1200px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg)">
+        <h1 class="promo__title">Молодая динамично развивающаяся</h1>
+        <div class="promo__desr">
+          <p>Описание далеко-далеко за снежными горами живут китайские коллекторы, предпочитающие юани. Не читай это, верстай.</p>
+          <p>Описание далеко-далеко за снежными горами живут китайские коллекторы, предпочитающие юани. </p>
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Грустный ведущими, от всех не снова пунктуация, сих ipsum если над там страну себя рыбными свой дорогу однажды. О, гор, несколько.</p>
+  <div class="hope">
+    <div class="hope__inner">
+      <div class="hope__text">
+        <p>Мы надееимя, что. Хотя, зря. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere accusamus consequuntur voluptatem. Molestiae ea totam cum praesentium odit, quia officiis! Dolorum ipsa nisi deserunt consequatur laboriosam assumenda dolore minus!</p>
+        <p>Это фатализм, детка! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere accusamus consequuntur voluptatem. Molestiae ea totam cum praesentium odit, quia officiis! Dolorum ipsa nisi deserunt consequatur laboriosam assumenda dolore minus!</p>
+      </div>
+      <div class="hope__image">
+        <img src="https://positivepsychologyprogram.com/wp-content/uploads/2015/09/hope-and-happiness-1024x418.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="news-list">
+    <article class="new">
+      <a href="" class="new__img">
+        <img src="https://www.providermatching.com/wp-content/uploads/2018/06/news.jpg" alt="Государственная дура одобрила" />
+      </a>
+      <h2 class="new__title">Государственная дура одобрила вмешательство</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iure modi quidem laborum dolor animi nam ea alias, illum architecto qui accusamus inventore, sit tempora magni pariatur velit nulla doloremque.</p>
+    </article>
+    <article class="new">
+      <a href="" class="new__img">
+        <img src="http://www.wearecallidus.com/wp-content/uploads/2017/03/3051795-poster-p-1-fast-company-is-hiring-a-senior-editor-for-news.jpg" alt="Граждане должны" />
+      </a>
+      <h2 class="new__title">Граждане должны самомтоятельно оплачивать</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iure modi quidem laborum dolor animi nam ea alias, illum architecto qui accusamus inventore, sit tempora magni pariatur velit nulla doloremque.</p>
+    </article>
+    <article class="new">
+      <a href="" class="new__img">
+        <img src="https://media.wsls.com/photo/2017/04/24/Whats%20News%20Today_1493062809311_9576980_ver1.0_1280_720.png" alt="Ещё не ослик" />
+      </a>
+      <h2 class="new__title">Ещё не ослик, но уже не ёжик</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iure modi quidem laborum dolor animi nam ea alias, illum architecto qui accusamus inventore, sit tempora magni pariatur velit nulla doloremque.</p>
+    </article>
+  </div>
+
+  <script src="js/script.js"></script>
 
 </body>
 </html>
